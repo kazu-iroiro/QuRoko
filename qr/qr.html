@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="../style.css">
+  <title>Genereted QR</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo_frame">
+      <img class="logo" src="../images/quroko.png">
+      <a href="https://kazu-iroiro.github.io/QuRoko/index.html"></a>
+    </div>
+    <div class="header_menu">
+      <a href="https://kazu-iroiro.github.io/QuRoko/editor/editor.html">Editor</a>
+      <a href="https://kazu-iroiro.github.io/QuRoko/faq/faq.html">FAQ</a>
+      <a href="https://github.com/kazu-iroiro/QuRoko">GitHub</a>
+    </div>
+  </header>
+
+  <div class="title">
+    <p>Genereted QR</p>
+  </div>
+
+  <div class="canvas" id="qrcode"></div>
+  <div><img id="newImg"></div>
+  <a id="dlImg" class="button">ダウンロード</a>
+
+  <div class="footer"></div>
+
+  <a class="hidden" id="link"></a>
+  <script src="jquery-3.5.1.min.js" charset="utf-8"></script>
+  <script src="jquery.qrcode.min.js" charset="utf-8"></script>
+  <script src="qr.js"></script>
+</body>
+
+</html>
